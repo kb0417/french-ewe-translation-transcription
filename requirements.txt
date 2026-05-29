@@ -1,0 +1,11 @@
+pandas
+numpy
+openpyxl
+scikit-learn
+matplotlib
+tensorflow
+keras
+sacrebleu
+nltk
+transformers
+sentencepiece
