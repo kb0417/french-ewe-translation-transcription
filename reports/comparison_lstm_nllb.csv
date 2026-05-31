@@ -1,0 +1,5 @@
+Modèle,Direction,Métrique,Score
+Seq2Seq LSTM,Français → Éwé,Accuracy mot par mot,0.2576
+Seq2Seq LSTM,Éwé → Français,Accuracy mot par mot,0.24
+NLLB pré-entraîné,Français → Éwé,BLEU sur 50 phrases,3.5779131358627656
+NLLB pré-entraîné,Éwé → Français,BLEU sur 50 phrases,2.766330620374854
