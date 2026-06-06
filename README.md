@@ -82,7 +82,7 @@ french-ewe-translation-transcription/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 ## Technologies utilisées
 
 - Python
