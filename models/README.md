@@ -1,12 +1,14 @@
 # Modèles entraînés
 
-Ce dossier est destiné à contenir les modèles entraînés.
+Ce dossier décrit les modèles entraînés pendant le projet.
 
-Les fichiers `.keras` ne sont pas inclus directement dans GitHub afin d’éviter de stocker des fichiers lourds.
+Les modèles LSTM `.keras` et les adaptateurs LoRA NLLB sont principalement sauvegardés dans Google Drive pour éviter des fichiers trop lourds dans GitHub.
 
-Les modèles sont sauvegardés dans Google Drive pendant l'entraînement :
+Modèles produits :
 
 - `best_seq2seq_fr_to_ewe.keras`
 - `seq2seq_lstm_fr_to_ewe_final.keras`
-
-Le notebook `03_seq2seq_lstm_french_to_ewe.ipynb` montre comment entraîner, sauvegarder et recharger ces modèles.
+- `best_seq2seq_ewe_to_fr.keras`
+- `seq2seq_lstm_ewe_to_fr_final.keras`
+- `nllb_fr_to_ewe_lora_final/`
+- `nllb_ewe_to_fr_lora_final/`
