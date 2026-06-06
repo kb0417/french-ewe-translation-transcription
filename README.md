@@ -82,3 +82,21 @@ french-ewe-translation-transcription/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+## Technologies utilisées
+
+- Python
+- Google Colab
+- Pandas / NumPy
+- TensorFlow / Keras
+- PyTorch
+- Hugging Face Transformers
+- PEFT / LoRA
+- SacreBLEU
+- Gradio
+
+## Limites du projet
+
+Ce projet reste expérimental. Les modèles LSTM entraînés from scratch produisent des traductions faibles, ce qui montre les limites de cette approche sur une langue peu dotée comme l’éwé.
+
+Les meilleurs résultats sont obtenus avec NLLB fine-tuné avec LoRA, mais les scores BLEU restent modestes. Les traductions générées doivent donc être interprétées avec prudence et vérifiées par des locuteurs natifs avant toute utilisation réelle.
