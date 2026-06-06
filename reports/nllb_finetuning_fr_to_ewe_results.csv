@@ -1,0 +1,2 @@
+model,direction,train_samples,valid_samples,test_samples,test_bleu
+NLLB LoRA fine-tuned,Français → Éwé,3000,300,200,5.963364815107571
