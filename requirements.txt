@@ -4,8 +4,13 @@ openpyxl
 scikit-learn
 matplotlib
 tensorflow
-keras
-sacrebleu
-nltk
+torch
 transformers
+datasets
+evaluate
+sacrebleu
 sentencepiece
+accelerate
+peft
+torchao
+gradio
